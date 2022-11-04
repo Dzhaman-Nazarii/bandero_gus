@@ -2,7 +2,24 @@ html, body {
 	height: 100%;
 }
 
+.wrapper {
+	width: 1170px;
+	margin: 0 auto;
+}
+
 .main_page {
 	background: linear-gradient(270deg, #A5DEFF 0.02%, #A5DEFF 0.03%, #A5DEFF 0.04%, #FCFEFF 99.96%, #FCFEFF 99.97%);
 	height: 100%;
+	display: flex;
+	flex-direction: column;
+}
+
+header {
+	margin-top: 34px;
+	margin-bottom: 58px;
+	display: flex;
+}
+
+.logo_text {
+	margin-left: 18px;
 }
