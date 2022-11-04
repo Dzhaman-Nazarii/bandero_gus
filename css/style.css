@@ -1,0 +1,8 @@
+html, body {
+	height: 100%;
+}
+
+.main_page {
+	background: linear-gradient(270deg, #A5DEFF 0.02%, #A5DEFF 0.03%, #A5DEFF 0.04%, #FCFEFF 99.96%, #FCFEFF 99.97%);
+	height: 100%;
+}
