@@ -89,7 +89,7 @@ header {
 	align-self: flex-end;
 }
 
-.fus_facts {
+.gus_facts {
 	padding: 52px 0 72px 0;
 	display: flex;
 	flex-direction: column;
@@ -181,10 +181,14 @@ header {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.3s ease-in-out;
 }
 
 .modal_form {
 	background: #ffffff;
+	position: relative;
 	padding: 32px 92px 60px 92px;
 	display: flex;
 	flex-direction: column;
@@ -244,4 +248,24 @@ header {
 	cursor: pointer;
 	border: 0;
 	margin-top: 24px;
+}
+
+.close_btn {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	font-size: 20px;
+	color: #1B1D1F;
+	cursor: pointer;
+	border: 0;
+	background: none;
+}
+
+.modal_descr {
+	margin-bottom: 0;
+}
+
+.modal_active {
+	opacity: 1;
+	pointer-events: all;
 }
