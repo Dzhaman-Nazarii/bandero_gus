@@ -187,12 +187,15 @@ header {
 }
 
 .modal_form {
-	background: #ffffff;
-	position: relative;
-	padding: 32px 92px 60px 92px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+}
+
+.modal_form_container {
+	background: #ffffff;
+	position: relative;
+	padding: 32px 92px 60px 92px;
 }
 
 .modal_form_title {

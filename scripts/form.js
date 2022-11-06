@@ -1,12 +1,12 @@
-const MODAL_ACTIVE_CLASS_NAME = 'modal-active';
+const MODAL_ACTIVE_CLASS_NAME = 'modal_active';
 
-const formModal = document.querySelector('#form-modal');
-const successModal = document.querySelector('#success-modal');
+const formModal = document.querySelector('#form_modal');
+const successModal = document.querySelector('#success_modal');
 const form = document.querySelector('#form');
 
-const openFormModalBtn = document.querySelector('#open-form-modal-btn');
-const launchBtn = document.querySelector('#launch-btn');
-const closeBtns = document.querySelectorAll('.close-btn');
+const openFormModalBtn = document.querySelector('#open_form_modal_btn');
+const launchBtn = document.querySelector('#launch_btn');
+const closeBtns = document.querySelectorAll('.close_btn');
 
 openFormModalBtn.addEventListener('click', () => {
     formModal.classList.add(MODAL_ACTIVE_CLASS_NAME);
